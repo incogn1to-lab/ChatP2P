@@ -2,13 +2,15 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Chat P2P Incógnito</title>
+  <title>Interfaz de Agentes IA</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h2>Chat Privado</h2>
+  <h2>Agente IA P2P</h2>
+  <p>🆔 Tu ID: <span id="agentId"></span></p>
+  <input type="text" id="recipientId" placeholder="ID del agente destino">
   <textarea id="chat" readonly></textarea>
-  <input type="text" id="message" placeholder="Escribí tu mensaje...">
+  <input type="text" id="message" placeholder="Mensaje semántico...">
   <button onclick="sendMessage()">Enviar</button>
   <script src="script.js"></script>
 </body>
